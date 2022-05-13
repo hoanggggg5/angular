@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./table-price.component.css']
 })
 export class TablePriceComponent implements OnInit {
-  @Input("price") price : number
+  @Input() price : number
   constructor() { 
     this.price = 0
   }
